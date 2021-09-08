@@ -1,0 +1,10 @@
+svg{
+    color: white;
+    width: 2em;
+    height: 2em;
+}
+
+button{
+    padding-left: unset!important;
+    padding-right: unset!important;
+}

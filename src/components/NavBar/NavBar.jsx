@@ -1,5 +1,5 @@
 import './NavBar.css'
-import logo from '../../logo.svg';
+import CartWidget from '../Landing/CartWidget';
 
 const NavBar = () => {
     return (
@@ -7,11 +7,6 @@ const NavBar = () => {
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid">
 
-                    <a className="navbar-brand" href="#">
-                        <img src={logo} alt="" width="30" height="30" />
-                        React Coder
-                    </a>
-                    
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <a className="nav-link active" href="#">Home</a>
@@ -20,13 +15,15 @@ const NavBar = () => {
                             <a className="nav-link" href="#">Productos</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Nuetros Planes</a>
+                            <a className="nav-link" href="#">Ofertas</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Contactanos</a>
                         </li>
 
                     </ul>
+
+                    <CartWidget />
 
                     <a className="nav-link login-button" href="#">Login</a>
                    
